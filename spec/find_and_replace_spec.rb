@@ -2,7 +2,7 @@ require('rspec')
 require('find_and_replace')
 require('pry')
 
-describe('#title_case') do
+describe('String#find_and_replace') do
   it("search for world and replace with universe") do
     expect("Hello world".find_and_replace("world", "universe")).to(eq("Hello universe"))
   end
