@@ -14,5 +14,4 @@ describe('#title_case') do
   it("search for world and replace with universe") do
     expect("I am walking my cat to the cathedral".find_and_replace("cat", "dog")).to(eq("I am walking my dog to the doghedral"))
   end
-  
 end
